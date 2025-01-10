@@ -24,3 +24,4 @@ RUN su vscode -c "python3 -m venv ${VENV_PATH}"  \
     && . ${VENV_PATH}/bin/activate \
     && pip install --no-cache-dir --disable-pip-version-check -r /tmp/deps/requirements.txt \
     && rm -rf /tmp/deps
+RUN cat motd.txt >> /etc/motd
