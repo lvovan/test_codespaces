@@ -1,10 +1,21 @@
 {
   "build": {
-    "dockerfile": "Dockerfile"
+    "dockerfile": "Dockerfile",
+    "context": ".."
   },
   "customizations": {
     "vscode": {
-      "extensions": ["dbaeumer.vscode-eslint"]
+      "extensions": [
+        "dbaeumer.vscode-eslint",
+        "ms-python.python",
+        "ms-python.pylance",
+        "neo4j-extensions.neo4j-for-vscode",
+        "ms-dotnettools.csdevkit"
+      ]
+    },
+    "settings": {
+      "python.defaultInterpreterPath": "/home/.venv/bin/python",
+      "python.terminal.activateEnvironment": true
     }
   }
 }
