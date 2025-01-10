@@ -7,15 +7,18 @@
     "vscode": {
       "extensions": [
         "dbaeumer.vscode-eslint",
-        "ms-python.python",
-        "ms-python.pylance",
-        "neo4j-extensions.neo4j-for-vscode",
-        "ms-dotnettools.csdevkit"
+        "ms-python.python"
+        // "ms-python.pylance",
+        // "neo4j-extensions.neo4j-for-vscode",
+        // "ms-dotnettools.csdevkit",
+        // "ms-azuretools.vscode-docker"
       ]
     },
     "settings": {
-      "python.defaultInterpreterPath": "/home/.venv/bin/python",
+      "python.defaultInterpreterPath": "/home/vscode/venv/bin/python",
+      "python.terminal.activateEnvInCurrentTerminal": true,
       "python.terminal.activateEnvironment": true
     }
-  }
+  },
+  "remoteUser": "vscode"
 }
