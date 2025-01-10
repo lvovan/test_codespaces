@@ -6,6 +6,5 @@
     "vscode": {
       "extensions": ["dbaeumer.vscode-eslint"]
     }
-  },
-  "postStartCommand": ". .venv/bin/activate && pip install -r requirements.txt"
+  }
 }

@@ -7,4 +7,4 @@ WORKDIR /work
 
 RUN python3 -m venv .venv
 COPY . .
-# RUN . .venv/bin/activate && pip install -r requirements.txt
+RUN . .venv/bin/activate && pip install -r requirements.txt
