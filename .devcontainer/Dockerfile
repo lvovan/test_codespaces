@@ -6,6 +6,5 @@ RUN apt-get install unixodbc-dev -y
 WORKDIR /work
 
 RUN python3 -m venv .venv
-RUN . .venv/bin/activate
 COPY . .
-RUN pip install -r requirements.txt
+# RUN . .venv/bin/activate && pip install -r requirements.txt
